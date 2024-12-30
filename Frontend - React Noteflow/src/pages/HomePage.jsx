@@ -12,7 +12,7 @@ const HomePage = ({ notes, loading, handleFilterText }) => {
   const currentNotes = notes.slice(indexOfFirstNote, indexOfLastNote);
 
   // Total pages calculation
-  const totalPages = Math.ceil(notes.length / notesPerPage);
+  const totalPages = (Math.ceil(notes.length / notesPerPage)) === 0 ? 1: Math.ceil(notes.length / notesPerPage);
 
   // Change page handler
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
