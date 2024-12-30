@@ -1,5 +1,6 @@
 # Ignore virtual environments
 Backend - Django Noteflow/notes_env/
+Backend - Django Noteflow/db.sqlite3
 
 # Ignore .env files
 .env
