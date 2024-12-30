@@ -1,0 +1,60 @@
+/* Pagination Container */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+
+/* Pagination Button */
+.pagination button {
+    background-color: #807ef1;
+    /* Futuristic neon blue */
+    color: white;
+    padding: 12px 24px;
+    margin: 0 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hover Effect for Buttons */
+.pagination button:hover {
+    background-color: #ff2a68;
+    /* Neon pink for hover effect */
+    transform: scale(1.1);
+    /* Slightly enlarge the button */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Disabled Pagination Button */
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+/* Active Page Number Highlight */
+.pagination button.active {
+    background-color: #ff2a68;
+    /* Highlight active page with neon pink */
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+
+/* Pagination Text for Page Number */
+.pagination span {
+    font-size: 18px;
+    margin: 0 12px;
+    color: #e5e5e5;
+}

@@ -1,0 +1,74 @@
+/* Shared container styles */
+.container-log {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: 400px;
+  margin: 50px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-button {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+.project-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.project-header p {
+  font-size: 1rem;
+  color: #888;
+}
+
+.login-link, .register-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login-link a, .register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-link a:hover, .register-link a:hover {
+  text-decoration: underline;
+}

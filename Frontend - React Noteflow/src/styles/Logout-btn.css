@@ -1,0 +1,57 @@
+/* Styling for the Logout button */
+.Logout-btn  {
+    background-color: #f8f9fa;
+    /* Red color to signify danger/important action */
+    color: #ff1900;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s ease-in-out;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logout-btn:hover {
+    color: white;
+    background-color: #ff0000;
+    /* Darker red on hover */
+}
+
+.Logout-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(231, 76, 60, 0.4);
+    /* Focus effect */
+}
+
+.Logout-btn:active {
+    background-color: #bd3c30;
+    /* Even darker red when clicked */
+    transform: translateY(0);
+    /* Depressed effect */
+}
+
+.Logout-btn .icon {
+    margin-right: 8px;
+    /* Spacing between icon and text */
+}
+
+/* Styling for the logout icon */
+.logout-icon {
+    margin-right: 8px;
+    /* Space between icon and text */
+    font-size: 20px;
+    /* Adjust the size of the icon */
+    color: #ff1900;
+    /* Match the text color of the logout button */
+    transition: color 0.3s;
+}
+
+/* When hovering over the button, change the icon color */
+.Logout-btn:hover .logout-icon {
+    color: white;
+    /* Icon color changes when the button is hovered */
+}
