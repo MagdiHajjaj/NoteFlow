@@ -1,4 +1,4 @@
-# Full Stack Note Management System with User Login
+# Full Stack Note Management System with User Login 
 
 This project is a **Full Stack Note Management System** that allows users to create, update, delete, and view notes. It includes user authentication (login/signup) and is built using **Django** for the backend and **React** for the frontend.
 
